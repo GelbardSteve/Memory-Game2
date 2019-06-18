@@ -1,0 +1,110 @@
+body {
+  margin: 20 auto;
+  max-width: 720px;
+}
+
+.wrapper {
+  padding: 10px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.cards div {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 35%;
+}
+
+.colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.colors div {
+  height: 85px;
+  -ms-flex-preferred-size: 12%;
+      flex-basis: 12%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.error {
+  margin: 10px;
+  background: yellow;
+  color: black;
+  font-size: 2em;
+  text-align: center;
+}
+
+.color1 {
+  background: #1abc9c;
+}
+
+.color2 {
+  background: #3498db;
+}
+
+.color3 {
+  background: #9b59b6;
+}
+
+.color4 {
+  background: tomato;
+}
+
+.color5 {
+  background: #523e7c;
+}
+
+.color6 {
+  background: #f2b91f;
+}
+
+.color7 {
+  background: #363b3f;
+}
+
+.color8 {
+  background: #e3e3e3;
+}
+
+.color9 {
+  background: #011C41;
+}
+
+.color10 {
+  background: #DA2A04;
+}
+
+.color11 {
+  background: #005A38;
+}
+
+.color12 {
+  background: #69BDEA;
+}
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=index.css.map */
