@@ -30,8 +30,12 @@ setTimeout(() => {
 
 }, 2000);
 
+var lose = false;
 // check if user picking the correct color
 function checkColor(e) {
+  if(lose) {
+    return;
+  }
   var div = e.srcElement,
     // Get the selected color
     selectedColor = div.className;
@@ -39,6 +43,7 @@ function checkColor(e) {
   // Check to see if the selected color match
   if (selectedColor !== initialColors[colorIndex]) {
     document.querySelector('.error').innerHTML = "Looooooser !!!!!!";
+    lost = true;
   } else {
     // Set the right color and advance the card index
     cards[colorIndex++].className = selectedColor;
