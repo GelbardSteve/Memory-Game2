@@ -43,7 +43,7 @@ function checkColor(e) {
   // Check to see if the selected color match
   if (selectedColor !== initialColors[colorIndex]) {
     document.querySelector('.error').innerHTML = "Looooooser !!!!!!";
-    lost = true;
+    lose = true;
   } else {
     // Set the right color and advance the card index
     cards[colorIndex++].className = selectedColor;
